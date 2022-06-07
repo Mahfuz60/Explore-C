@@ -6,6 +6,7 @@ int main(){
   float price;
   printf("Enter your Price:");
   scanf("%f",&price);
+  printf("Actual Price:%f\n",price);
  
 calculatePrice(price);
   return 0;
@@ -16,5 +17,5 @@ void calculatePrice(float price){
  
 
    price=price+(vat*price);
-  printf("total price:%f",price);
+  printf("final price price:%f",price);
 }
